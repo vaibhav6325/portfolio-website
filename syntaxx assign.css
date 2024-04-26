@@ -1,0 +1,22 @@
+label{
+    color: red;
+}
+form{
+    border: 4px solid lightpink;
+    align-self: center;
+    background-color: lightgrey;
+}
+a:hover{
+    color: red;
+}
+div{
+    color: darkred;
+}
+#fakebox{
+    background-color: lightgreen;
+    box-sizing: border-box;
+    border-radius: 22px;
+}
+body{
+    background-image: url(backgoround\ photo.jpg);
+}

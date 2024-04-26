@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="stylesheet" href="syntaxx assign.css">
+    <title>syntax and selector</title>
+</head>
+    <body>
+    <form  action="action_page.php" target="_blank" method="post">
+        <label for="name" >Name</label><br>
+        <input type="text" name="name" required placeholder="Enter your name" id="fakebox"><br><br>
+        <label for="email id" >Email</label><br>
+        <input type="text" name="email" id="fakebox" required placeholder="abc@gmail.com"><br><br>
+        <label for="roll no" >Roll No</label><br>
+        <input type="number" name="roll no" id="fakebox" required placeholder="roll" min="0" max="9999999"><br><br>
+        <label>How do you rate our courses?</label><br>
+        <select required id="fakebox">
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="bad">Bad</option>
+            <option value="worst">Worst</option>
+        </select><br><br>
+        <label>Your Favourite Topic in HTML</label>
+        <br>
+        <div>
+            <input type="checkbox">Structural Elements<br>
+            <input type="checkbox">link and list<br>
+            <input type="checkbox">HTML media<br>
+            <input type="checkbox">html table<br>
+            <input type="checkbox">grouping Elements<br>
+            <input type="checkbox">forms<br><br>
+        </div>
+        <label>Do You Like HTML courses?</label>
+        <br>
+            <input type="radio" name="yes or no" required>Yes
+            <input type="radio" name="yes or no">No
+            <br><br>
+        <label >Few words about courses</label><br>
+        <textarea rows="4" cols="50" required style="background-color: lightgreen;" id="fakebox"></textarea>
+        <br><br>
+        <button style="background-color:yellow;"><a href="#">Submit</a></button>
+    </form>
+    </body>
+</html>
