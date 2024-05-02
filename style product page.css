@@ -1,0 +1,47 @@
+body{
+    background-color: #d14141;
+    font-family: 'raleway', sans-serif;
+    padding: 0;
+    line-height: 40px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+#best{
+    background-color: #ebeba1;
+    border-radius: 10px;
+    border: rgb(188, 68, 68) 2px solid;
+}
+
+.photo {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+}
+.money{
+    color:rgb(0, 42, 255);
+}
+
+  
+}
+.cart {
+    border: 1px solid LightGrey;
+    padding: 10px 0px;
+    width: 70%;
+}
+.cart a {
+    border: 1px solid #dada7c;
+    border-radius: 5px;
+    color: rgb(31, 28, 28);
+    margin: 5px;
+    padding: 7px;
+    text-decoration: none;
+}
+.cart a:hover {
+    background: #cacac0;
+    border: 1px solid #717103;
+    color: cyan;
+}
