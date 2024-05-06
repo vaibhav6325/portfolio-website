@@ -1,0 +1,65 @@
+
+
+body{
+    background-color: lightcyan;
+   
+}
+h2{
+    text-align: center; /*text align */
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.content{
+    background-color: rgb(191, 186, 186);
+    position: relative;
+    top: 15px;
+    left: 580px;
+    padding: 50px;
+    border: 2px solid rgb(248, 237, 113);
+    border-radius: 8px;
+    width: 300px ;
+    text-shadow: 4px 4px 4px rgb(192, 132, 108);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    box-sizing: content-box;
+}
+#username{
+    border-radius: 5px;
+    width: 200px;
+    padding: 2px;
+}
+#password{
+    border-radius: 5px;
+    width: 200px;
+    padding: 2px;
+}
+label{
+    color: rgb(28, 17, 247);
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+button{
+    padding: 3px 35px 3px 35px;
+    word-spacing: 3px;
+    border-radius: 15px;
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+}
+button:hover{
+    color: blueviolet;
+    background-color: lightcoral;
+}
+a{
+    font-size: x-small;
+    float: right;
+}
+a:hover{
+    background-color: rgb(175, 180, 184);
+    color: turquoise;
+}
